@@ -1,10 +1,5 @@
-import React, {
-  Dispatch,
-  ReactNode,
-  SetStateAction,
-  createContext,
-  useState,
-} from 'react';
+import type { Dispatch, ReactNode, SetStateAction } from 'react';
+import React, { createContext, useState } from 'react';
 
 type PageContext = {
   count: number;
